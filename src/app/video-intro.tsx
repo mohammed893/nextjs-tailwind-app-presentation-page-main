@@ -20,7 +20,7 @@ export function VideoIntro() {
         />
         <div className="absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 z-10">
         <a href="https://youtube.com" target="_blank">
-        <IconButton color="white" className="rounded-full" size="lg">
+        <IconButton color="white" className="rounded-full" size="lg"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
             <PlayIcon className="h-6 w-6" />
           </IconButton>
         </a>
